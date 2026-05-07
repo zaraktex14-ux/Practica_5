@@ -14,7 +14,7 @@ Es software interactivo desarrollado en prácticas anteriores para permitir la:
 
 ---
 
-## Parte 1 — Transformación de Gramáticas
+## Transformación de Gramáticas
 
 - Ingresar gramáticas independientes del contexto en JFLAP
 - Transformar gramáticas a:
@@ -24,7 +24,7 @@ Es software interactivo desarrollado en prácticas anteriores para permitir la:
 
 ---
 
-## Parte 2 — Visualización de Autómatas
+##  Visualización de Autómatas
 
 - Integrar visualización gráfica de autómatas
 - Simular recorridos de cadenas
@@ -35,11 +35,7 @@ Es software interactivo desarrollado en prácticas anteriores para permitir la:
 
 ##  Interfaz Gráfica
 
-La aplicación cuenta con una interfaz intuitiva desarrollada en:
-
-- Tkinter
-
-Funciones principales:
+La aplicación cuenta con una interfaz intuitiva: 
 
 - Creación de estados
 - Definición de transiciones
@@ -69,8 +65,6 @@ Durante la simulación se muestra:
 ---
 
 ## Visualización Gráfica
-
-La aplicación integra Graphviz para:
 
 - Dibujar automáticamente los autómatas
 - Mostrar estados y transiciones
@@ -108,7 +102,7 @@ Se implementan transformaciones para:
 ## Requisitos
 
 - Python 3.8 o superior
-- JFLAP
+- contar con JFLAP
 
 ---
 
@@ -117,3 +111,21 @@ Se implementan transformaciones para:
 ```bash
 pip install graphviz
 pip install customtkinter networkx matplotlib
+
+## Forma de Ejecución 
+
+Ejecutar el programa:
+
+```bash
+py main.py
+py grafico.py
+```
+---
+
+# Observaciones al cargar JFLAP 
+ AFD  - el JFLAP debe ser el Archivo JFLAP (*.afd)
+ Gramaticas - el JFLAP debe de ser convertido: 
+           ir al menu y dar clic en "Convert", se te desglosara un menu, dar en "Covert to Grammar ", dar clic en "Show All" y                guardar el Archivo JFLAP (*.jff)
+grafico -  el JFLAP debe ser el Archivo JFLAP (*.jff)
+              
+
