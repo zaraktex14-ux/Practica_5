@@ -116,5 +116,4 @@ Se implementan transformaciones para:
 
 ```bash
 pip install graphviz
-```bash
 pip install customtkinter networkx matplotlib
