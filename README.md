@@ -123,7 +123,8 @@ py grafico.py
 ---
 
 # Observaciones al cargar JFLAP 
- -AFD  - el JFLAP debe ser el Archivo JFLAP (*.afd)
+
+ - AFD  - el JFLAP debe ser el Archivo JFLAP (*.afd)
  
  - Gramaticas - el JFLAP debe de ser convertido: 
            ir al menu y dar clic en "Convert", se te desglosara un menu, dar en "Covert to Grammar ", dar clic en "Show All" y                guardar el Archivo JFLAP (*.jff)
