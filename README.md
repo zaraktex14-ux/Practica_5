@@ -1,4 +1,4 @@
-#Práctica 5 — Transformación de Gramáticas y Visualización de Autómatas
+# Práctica 5 — Transformación de Gramáticas y Visualización de Autómatas
 
 
 Esta práctica implementa la transformación de Gramáticas Independientes del Contexto (GIC) a:
